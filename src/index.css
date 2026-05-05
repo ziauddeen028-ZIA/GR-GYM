@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans;
+    background-color: #0B0B0B;
+    color: #ffffff;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  h1 {
+    @apply text-6xl md:text-8xl;
+  }
+
+  h2 {
+    @apply text-5xl md:text-7xl;
+  }
+
+  button, .btn, .nav-link {
+    @apply font-cta;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+}
+
+@layer utilities {
+  .text-accent {
+    color: #FFD600;
+  }
+  .bg-accent {
+    background-color: #FFD600;
+  }
+  .border-accent {
+    border-color: #FFD600;
+  }
+  .section-padding {
+    @apply px-4 py-20 md:px-10 lg:px-20;
+  }
+  .section-title {
+    @apply text-5xl md:text-6xl text-white mb-4;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.05em;
+  }
+  .glow-yellow {
+    box-shadow: 0 0 20px rgba(255, 214, 0, 0.35);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD600;
+  border-radius: 3px;
+}
+
