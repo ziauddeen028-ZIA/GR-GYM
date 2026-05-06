@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import coach from "../assets/coach.png"
 const aboutImg = 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop'
 
 const stats = [
@@ -27,7 +28,7 @@ export default function About() {
           >
             <div className="relative overflow-hidden rounded-sm">
               <img
-                src={aboutImg}
+                src={coach}
                 alt="GR Gym Fitness interior"
                 className="w-full h-80 lg:h-[500px] object-cover"
               />
