@@ -7,7 +7,7 @@ const stats = [
   { value: '500+', label: 'Members' },
   { value: '5+', label: 'Years Experience' },
   { value: '₹600', label: 'Starting Price' },
-  { value: '6', label: 'Days/Week' },
+  { value: '7', label: 'Days' },
 ]
 
 export default function About() {

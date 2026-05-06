@@ -40,11 +40,7 @@ function GalleryItem({ item, index }) {
         alt={item.alt}
         className="w-full h-52 md:h-64 object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-1"
       />
-      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <div className="w-10 h-10 border-2 border-accent rounded-full flex items-center justify-center">
-          <span className="text-accent text-lg font-sans">+</span>
-        </div>
-      </div>
+
       <div className="absolute bottom-0 left-0 right-0 h-1 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
     </motion.div>
   )

@@ -89,6 +89,8 @@ export default function Pricing() {
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3 font-sans">Membership Plans</p>
           <h2 className="section-title font-heading">Simple, <span className="text-accent font-sans">Affordable</span> Pricing</h2>
           <p className="text-textLight max-w-lg mx-auto text-sm mt-2 font-sans">No hidden fees. No contracts. Just results.</p>
+          <p className="text-textLight max-w-lg mx-auto text-sm mt-2 font-sans">For New Joining admission charge - ₹200</p>
+          
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {plans.map((plan, i) => <PricingCard key={plan.id} plan={plan} index={i} />)}
