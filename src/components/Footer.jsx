@@ -12,6 +12,16 @@ export default function Footer() {
             Premium fitness, affordable price.
           </p>
         </div>
+        <div className="mt-5">
+          <a
+            href="https://ziauddeen-zia.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 backdrop-blur-sm text-emerald-400 font-medium tracking-wide hover:bg-emerald-500 hover:text-white hover:shadow-lg hover:shadow-emerald-500/30 transition-all duration-300"
+          >
+            Designed by <span className="font-semibold">Ziauddeen</span> ↗
+          </a>
+        </div>
 
         {/* Links */}
         <ul className="flex flex-wrap justify-center gap-6 text-textLight font-body text-sm">
